@@ -1,0 +1,35 @@
+/* styles for 320px */
+.card {
+    display: flex;
+    padding: 0.2rem;
+    margin-bottom: 0.7rem;
+    border: 1px solid #4b5261;
+    border-radius: 3px;
+}
+.card:hover {
+    box-shadow: 0 0 3px rgb(20, 188, 255);
+}
+.image {
+    width: 2rem;
+    object-fit: cover;
+    height: 2.4rem;
+}
+.infoBox {
+    width: 100%;
+    border: 1px solid #4b5261;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 0.4rem;
+}
+.infoBox span {
+    font-size: 1.1rem;
+    /* color: #54719f; */
+}
+.nameButton {
+    padding: 0.1rem;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    /* border: 3px solid #a91a1a; */
+}
